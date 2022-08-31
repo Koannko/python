@@ -17,12 +17,12 @@
 #     data.write('line 1\n')
 #     data.write('line 2222\n')
 # Чтобы прочитать файл:
-# path = 'file.txt'
+path = 'file.txt'
 # # path означает путь к файлу
-# data = open(path, 'r')
-# for line in data:
-#     print(line)
-# data.close()
+data = open(path, 'r')
+for line in data:
+    print(line)
+data.close()
 # для импорта функции из другого файла:
 # 1. import hello
 # print(hello.f(1))
