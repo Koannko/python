@@ -1,9 +1,9 @@
 # 2. Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 def listOfNonRepeatNums(listOfNums):
-    listOfNonRepeat = []
-    for i in listOfNums:
-        if listOfNums[i] not in listOfNonRepeat:
-            listOfNonRepeat.append(i)
+    listOfNonRepeat = set(listOfNums)
+    # for i in listOfNums:
+    #     if listOfNums[i] not in listOfNonRepeat:
+    #         listOfNonRepeat.append(i)
     return listOfNonRepeat
 
 
